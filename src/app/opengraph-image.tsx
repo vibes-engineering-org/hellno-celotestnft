@@ -26,7 +26,7 @@ export default async function Image() {
           overflow: "hidden",
         }}
       >
-        {/* Background gradient with Farcaster purple and electric blue */}
+        {/* Background gradient with Celo green and golden yellow */}
         <div
           style={{
             position: "absolute",
@@ -34,7 +34,7 @@ export default async function Image() {
             left: 0,
             right: 0,
             bottom: 0,
-            background: "linear-gradient(135deg, #8A63D2 0%, #1E90FF 100%)",
+            background: "linear-gradient(135deg, #35D07F 0%, #FBCC5C 50%, #35D07F 100%)",
             opacity: 0.9,
           }}
         />
@@ -48,7 +48,7 @@ export default async function Image() {
             right: 0,
             bottom: 0,
             backgroundImage:
-              "radial-gradient(circle at 20% 80%, rgba(138, 99, 210, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(30, 144, 255, 0.4) 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 80%, rgba(53, 208, 127, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(251, 204, 92, 0.4) 0%, transparent 50%)",
           }}
         />
 
@@ -155,7 +155,7 @@ export default async function Image() {
             {PROJECT_DESCRIPTION}
           </p>
 
-          {/* Farcaster branding element */}
+          {/* NFT Minting branding element */}
           <div
             style={{
               display: "flex",
@@ -169,21 +169,48 @@ export default async function Image() {
               boxShadow: "0 8px 32px rgba(0, 0, 0, 0.2)",
             }}
           >
-            {/* Farcaster icon */}
+            {/* NFT/Mint icon */}
             <svg
               width="32"
               height="32"
-              viewBox="0 0 256 256"
+              viewBox="0 0 24 24"
               fill="none"
               style={{
                 display: "block",
               }}
             >
-              <rect width="256" height="256" rx="56" fill="#7C65C1"></rect>
+              <rect
+                x="2"
+                y="3"
+                width="20"
+                height="14"
+                rx="2"
+                stroke="white"
+                strokeWidth="2"
+                fill="rgba(255, 255, 255, 0.1)"
+              />
               <path
-                d="M183.296 71.68H211.968L207.872 94.208H200.704V180.224L201.02 180.232C204.266 180.396 206.848 183.081 206.848 186.368V191.488L207.164 191.496C210.41 191.66 212.992 194.345 212.992 197.632V202.752H155.648V197.632C155.648 194.345 158.229 191.66 161.476 191.496L161.792 191.488V186.368C161.792 183.081 164.373 180.396 167.62 180.232L167.936 180.224V138.24C167.936 116.184 150.056 98.304 128 98.304C105.944 98.304 88.0638 116.184 88.0638 138.24V180.224L88.3798 180.232C91.6262 180.396 94.2078 183.081 94.2078 186.368V191.488L94.5238 191.496C97.7702 191.66 100.352 194.345 100.352 197.632V202.752H43.0078V197.632C43.0078 194.345 45.5894 191.66 48.8358 191.496L49.1518 191.488V186.368C49.1518 183.081 51.7334 180.396 54.9798 180.232L55.2958 180.224V94.208H48.1278L44.0318 71.68H72.7038V54.272H183.296V71.68Z"
+                d="M8 21L16 21"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
+              <path
+                d="M12 17L12 21"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
+              <circle
+                cx="8.5"
+                cy="8.5"
+                r="1.5"
                 fill="white"
-              ></path>
+              />
+              <path
+                d="M14 7L18 11L14 11L14 7Z"
+                fill="white"
+              />
             </svg>
             <span
               style={{
@@ -194,7 +221,7 @@ export default async function Image() {
                 letterSpacing: "-0.5px",
               }}
             >
-              Farcaster Mini App
+              NFT Minting on Celo
             </span>
           </div>
         </div>
